@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Montserrat:wght@500&display=swap');
+
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+.main-container {
+  p {
+    padding: 1rem;
+    margin: 0;
+    position: absolute;
+    left: -50vh;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Inconsolata', monospace;
+  }
+}
+
+.ref-div-img {
+  height: 100vh;
+}
+.image-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    object-fit: contain;
+  }
+}
+
+.scroll-ref-div {
+  height: 10vh;
+}
+.scroll-div {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.obk {
+  font-size: 9rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gg {
+  font-size: 10rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+.ref-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+
+  margin-bottom: 4rem;
+}
+
+.kenobi {
+  height: 180vh;
+  margin-bottom: 4rem;
+}
